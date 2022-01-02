@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: oxygen;
+  font-weight: 900;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  color: #333;
+}
+
+img {
+  position: absolute;
+  height: 100vh;
+  z-index: -1;
+  top: 0;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card {
+  background: rgba(228, 229, 230, 0.7);
+  width: 400px;
+  border-radius: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-shadow: 0 0 50px #333;
+          box-shadow: 0 0 50px #333;
+}
+
+.title {
+  color: #3e51bd;
+}
+
+label {
+  font-size: 1.25rem;
+  display: block;
+  margin-top: 30px;
+  color: #3e51bd;
+}
+
+input {
+  border: 1px solid #3e51bd;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  background: transparent;
+  margin-top: 10px;
+  font-size: 1.25rem;
+}
+
+button {
+  background: #0275d8;
+  color: #eee;
+  border: none;
+  font-size: 1.25rem;
+  margin-top: 30px;
+  border-radius: 15px;
+  padding: 0.75rem 1.25rem;
+  cursor: pointer;
+  -webkit-box-shadow: 2px 2px 5px #285175;
+          box-shadow: 2px 2px 5px #285175;
+  -webkit-transition: -webkit-transform 250ms ease;
+  transition: -webkit-transform 250ms ease;
+  transition: transform 250ms ease;
+  transition: transform 250ms ease, -webkit-transform 250ms ease;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+
+button:hover {
+  -webkit-transform: scale(1.25);
+          transform: scale(1.25);
+}
+/*# sourceMappingURL=style.css.map */

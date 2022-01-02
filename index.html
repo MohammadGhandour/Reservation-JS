@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Mulish:wght@200&family=Orbitron&family=Oxygen:wght@300&family=Raleway:wght@600&family=Unica+One&family=Vollkorn&display=swap" rel="stylesheet">
+    <title>Reservation</title>
+</head>
+<body>
+    <img src="resort.jpg" alt="image2">
+    <div class="card">
+        <h2 class="title">Réserver votre séjour</h2>
+        <div class="prix"><span id="nightPrice">46</span> $ / nuit</div>
+
+        <label for="">Date d'arrivée</label>
+        <input id="start_date" type="date" required><br>
+        <label for="">Date de départ</label>
+        <input id="end_date" type="date" required><br>
+
+        <button class="btn cyan accent-3">Valider ma réservation</button>
+
+        <h2>Total : <span id="total"></span> $</h2>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
